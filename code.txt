@@ -1,0 +1,26 @@
+ {project.liveUrl && (
+                                        <div className="mb-4">
+                                            <a
+                                                href={project.liveUrl}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 mr-4"
+                                            >
+                                                Live Demo
+                                            </a>
+                                        </div>
+                                    )}
+
+                                    {/* GitHub */}
+                                    {project.githubUrl && (
+                                        <div className="mb-4">
+                                            <a
+                                                href={project.githubUrl}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-flex items-center px-4 py-2 bg-gray-700 text-white rounded hover:bg-gray-800"
+                                            >
+                                                View on GitHub
+                                            </a>
+                                        </div>
+                                    )}
