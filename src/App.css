@@ -1,0 +1,10 @@
+/* tailwind.css */
+@layer theme {
+  :root {
+    --color-primary: #007BFF; /* Electric Blue */
+    --color-secondary: #FFD700; /* Bright Yellow */
+    --color-accent: #FFA500; /* Bright Orange */
+    --color-background: #1A1A1A; /* Dark Gray */
+    --color-text-primary: #FFFFFF; /* White */
+  }
+}

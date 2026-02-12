@@ -1,0 +1,76 @@
+# Dependency directories
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Production
+build/
+dist/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+
+# IDE/Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Tailwind CSS
+.tailwindcss
+
+# Cache
+.cache/
+
+# Next.js
+.next/
+
+# Gatsby
+.cache/
+# Comment in the public line if using a static site framework that doesn't use a separate public folder
+# public
+
+# Other
+*.log
+logs
+*.tmp
+*.temp
+*~
+*.bak
+*.backup
+
+# Local Netlify folder
+.netlify
+
+# Vite
+*.local
+
+# ESLint
+.eslintcache
+
+# Optional
+.sass-cache/
+*.css.map
+*.js.map
+*.sass.map
+*.scss.map
+config.bat
